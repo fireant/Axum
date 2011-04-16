@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/textView1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#00FF00"
+    android:textSize="30sp"
+    android:text="@string/firstLED"
+    />
+<SeekBar 
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:id="@+id/mySeekBar1"
+	android:paddingLeft="30sp"
+	android:paddingRight="35sp"></SeekBar>
+<TextView  
+	android:id="@+id/textView2"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#FFFF00"
+    android:textSize="30sp"
+    android:text="@string/secondLED"
+    />
+<SeekBar 
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:id="@+id/mySeekBar2"
+	android:paddingLeft="30sp"
+	android:paddingRight="35sp"></SeekBar>
+<TextView  
+	android:id="@+id/textView3"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#FF0000"
+    android:textSize="30sp"
+    android:text="@string/thirdLED"
+    />
+<SeekBar 
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:id="@+id/mySeekBar3"
+	android:startColor="#40ffd300"
+	android:endColor="#40ffcb00"
+	android:paddingLeft="30sp"
+	android:paddingRight="35sp"></SeekBar>
+</LinearLayout>
